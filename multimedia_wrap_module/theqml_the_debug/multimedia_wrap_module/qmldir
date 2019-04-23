@@ -1,0 +1,9 @@
+﻿module theqml_the_debug.multimedia_wrap_module
+plugin multimedia_wrap_module
+typeinfo plugins.qmltypes
+#classname sstd::TheMoudle
+
+Audio 1.0 Audio.qml
+Camera 1.0 Camera.qml
+
+
