@@ -5,5 +5,21 @@ typeinfo plugins.qmltypes
 
 Audio 1.0 Audio.qml
 Camera 1.0 Camera.qml
+CameraCapture 1.0 CameraCapture.qml
+CameraExposure 1.0 CameraExposure.qml
+CameraFlash 1.0 CameraFlash.qml
+CameraFocus 1.0 CameraFocus.qml
+CameraImageProcessing 1.0 CameraImageProcessing.qml
+CameraRecorder 1.0 CameraRecorder.qml
+MediaPlayer 1.0 MediaPlayer.qml
+Playlist 1.0 Playlist.qml
+PlaylistItem 1.0 PlaylistItem.qml
+QtMultimedia 1.0 QtMultimedia.qml
+Radio 1.0 Radio.qml
+RadioData 1.0 RadioData.qml
+SoundEffect 1.0 SoundEffect.qml
+Torch 1.0 Torch.qml
+Video 1.0 Video.qml
+VideoOutput 1.0 VideoOutput.qml
 
 
