@@ -8,11 +8,25 @@ import theqml_the_debug.multimedia_wrap_module 1.0
 
 ApplicationWindow {
 
-    width: 360 ;
-    height: 64 ;
+    width: 800 ;
+    height: 450 ;
     visible: true ;
+
+    Video{
+        anchors.fill: parent
+        source: "source.avi"
+        Component.onCompleted: {
+            play();
+        }
+    }
 
 }
 /*endl_input_of_latex_for_clanguage_lick*/
 /*begin:debug*/
 /*end:debug*/
+
+//Window：DirectShowPlayerService
+//DirectShowPlayerService::doRender: Unresolved error code 0x80040266 ()
+//lavfilter
+//https://github.com/Nevcairiel/LAVFilters/releases
+
