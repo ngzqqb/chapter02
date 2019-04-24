@@ -15,6 +15,7 @@ ApplicationWindow {
     Video{
         anchors.fill: parent
         source: "source.avi"
+        loops: MediaPlayer.Infinite
         Component.onCompleted: {
             play();
         }
