@@ -1,0 +1,7 @@
+﻿module theqml_the_debug.text_path_view_module
+plugin text_path_view_module
+typeinfo plugins.qmltypes
+#classname sstd::TheMoudle
+
+TextPathView 1.0 TextPathView.qml
+
