@@ -3,6 +3,7 @@
 import QtQuick 2.12
 import QtQuick.Controls 2.12
 import QtQuick.Controls.Material 2.12
+import "Count.js" as GlobalCount
 
 ApplicationWindow {
 
@@ -17,8 +18,10 @@ ApplicationWindow {
         anchors.centerIn: parent
         width: parent.width*0.8
         height: parent.height*0.8
+        id : idText
     }
 
+    property int count: GlobalCount.count()
     onIsDarkChanged: checkAndUpdateStyle();
 
     function checkAndUpdateStyle(){
@@ -29,7 +32,10 @@ ApplicationWindow {
         }
     }
 
-    Component.onCompleted: checkAndUpdateStyle();
+    Component.onCompleted: {
+        checkAndUpdateStyle();
+        idText.text = "text : " + idText.count + " this : " + this.count ;
+    }
 
     Timer{
         interval: 1500;
