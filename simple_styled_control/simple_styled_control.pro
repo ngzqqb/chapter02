@@ -37,5 +37,6 @@ lupdate_only{
 }
 
 DISTFILES += $$QMLSOURCES
+DISTFILES += $$PWD/appqml/simple_styled_control/Count.js
 
 #/*endl_input_of_latex_for_clanguage_lick*/"
