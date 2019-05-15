@@ -1,14 +1,13 @@
 ﻿/* appqml/text_path_view/main.qml */
 import QtQuick 2.9
 import QtQuick.Controls 2.5
-import QtQuick.Controls.Material 2.3
 import sstd.styled.app 1.0
 
 /*begin:import*/
 import theqml_the_debug.text_path_view_module 1.0
 /*end:import*/
 
-ApplicationWindow {
+StyledApplicationWindow {
 
     width: 280 ;
     height: 130 ;
@@ -20,24 +19,8 @@ ApplicationWindow {
         height: 256
     }
 
-    property bool isDark: GlobalAppData.isDark
-    function updateTheme(){
-        if( isDark ){
-            Material.theme = Material.Dark ;
-        }else{
-            Material.theme = Material.Light ;
-        }
-    }
-    onIsDarkChanged: {
-        updateTheme();
-    }
-    Component.onCompleted: {
-        updateTheme();
-        visible = true ;
-    }
-
     Timer{
-        interval: 500;
+        interval: 1500;
         running: true;
         repeat: true
         onTriggered: GlobalAppData.isDark=!GlobalAppData.isDark

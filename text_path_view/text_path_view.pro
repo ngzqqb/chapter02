@@ -30,6 +30,7 @@ CONFIG(debug,debug|release){
 }
 
 QMLSOURCES += $$PWD/appqml/text_path_view/main.qml
+QMLSOURCES += $$PWD/appqml/text_path_view/StyledApplicationWindow.qml
 
 lupdate_only{
     SOURCES += $$QMLSOURCES
