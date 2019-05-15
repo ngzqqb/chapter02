@@ -12,7 +12,6 @@ ApplicationWindow {
 
     width: 280 ;
     height: 130 ;
-    visible: true ;
 
     TextPathView{
         x : 32
@@ -34,6 +33,7 @@ ApplicationWindow {
     }
     Component.onCompleted: {
         updateTheme();
+        visible = true ;
     }
 
     Timer{
