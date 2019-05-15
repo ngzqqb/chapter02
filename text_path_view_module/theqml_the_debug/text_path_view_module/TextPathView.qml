@@ -1,6 +1,7 @@
 ﻿
 import QtQuick 2.12
 import QtQuick.Controls 2.12
+import sstd.styled.app 1.0
 
 Item {
 
@@ -38,6 +39,7 @@ Item {
             horizontalAlignment: Text.AlignHCenter
             transformOrigin : Item.Center
             rotation: PathView.itemRotation
+            color: GlobalAppData.foreground
         }
     }/*Component*/
 
