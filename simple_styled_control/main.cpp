@@ -15,11 +15,7 @@ int main(int argc, char ** argv) {
         auto varFullFileName = sstd::autoLocalPath<QUrl>(
             QStringLiteral("appqml/simple_styled_control/main.qml"));
         /*加载Qml文件*/
-        varEngine.load(varFullFileName);
-        /*检查并报错*/
-        if (varEngine.rootObjects().empty()) {
-            return -1;
-        }
+        sstd::checkedLoadQmlFile(&varEngine, &varApplication, varFullFileName);
     }
     return varApplication.exec();
 
