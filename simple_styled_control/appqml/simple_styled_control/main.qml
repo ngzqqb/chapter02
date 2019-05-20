@@ -9,7 +9,6 @@ ApplicationWindow {
 
     width: 256 ;
     height: 32 ;
-    visible: true ;
 
     property bool isDark: true
     property var appStyle : Material
@@ -35,6 +34,7 @@ ApplicationWindow {
     Component.onCompleted: {
         checkAndUpdateStyle();
         idText.text = "text : " + idText.count + " this : " + this.count ;
+        visible = true
     }
 
     Timer{
