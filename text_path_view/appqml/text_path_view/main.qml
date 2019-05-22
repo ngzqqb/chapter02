@@ -27,7 +27,7 @@ StyledApplicationWindow {
     }
 
     Component.onCompleted: {
-        GlobalAppData.isDark = defaultIsDark;
+        reloadDefaultStyle();
         visible = true
     }
 
