@@ -27,7 +27,6 @@ StyledApplicationWindow {
     }
 
     Component.onCompleted: {
-        reloadDefaultStyle();
         visible = true
     }
 
