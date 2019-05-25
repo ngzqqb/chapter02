@@ -27,7 +27,7 @@ StyledApplicationWindow {
     }
 
     Component.onCompleted: {
-        visible = true
+        Qt.callLater(runOnceOnStart)
     }
 
 }
