@@ -2,4 +2,3 @@
 
 QtType.CameraImageProcessing{
 }
-

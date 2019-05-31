@@ -30,4 +30,3 @@ ApplicationWindow {
 //DirectShowPlayerService::doRender: Unresolved error code 0x80040266 ()
 //lavfilter
 //https://github.com/Nevcairiel/LAVFilters/releases
-

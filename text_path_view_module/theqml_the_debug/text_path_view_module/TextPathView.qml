@@ -64,5 +64,3 @@ Item {
     }/*PathView*/
 
 }/*Item*/
-
-
