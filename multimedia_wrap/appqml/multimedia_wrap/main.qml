@@ -30,3 +30,9 @@ ApplicationWindow {
 //DirectShowPlayerService::doRender: Unresolved error code 0x80040266 ()
 //lavfilter
 //https://github.com/Nevcairiel/LAVFilters/releases
+//sudo apt-get install libgstreamer1.0-dev
+//sudo apt-get install libpulse-dev
+//sudo apt-get install gstreamer1.0-plugins-good gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly gstreamer1.0-libav
+//https://zhuanlan.zhihu.com/p/67795412
+//QMediaPlayer依赖本地解码器，WIN上下载k-lite或者LAV Filters安装即可。
+
