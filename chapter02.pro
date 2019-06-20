@@ -8,3 +8,4 @@ SUBDIRS += text_path_view
 SUBDIRS += simple_styled_control
 SUBDIRS += cpp_and_qml_binding_property
 SUBDIRS += cpp_and_qml_binding_property_module
+SUBDIRS += item_study
