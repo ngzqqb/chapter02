@@ -36,6 +36,8 @@ PrivateBasic{
             id : idBlueRectangle
             width: idGraykRectangle.width * 0.3
             height: idGraykRectangle.height *0.5
+            border.color: "black"
+            border.width: 3
             color: "lightblue"
             state:"anchorsTop"
 
