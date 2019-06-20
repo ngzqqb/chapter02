@@ -11,9 +11,7 @@ namespace sstd {
     public:
         Q_INVOKABLE void cppUpdateAProperty();
     public:
-        inline QString getAProperty() const {
-            return thisAProperty;
-        }
+        inline QString getAProperty() const;
         void setAProperty(const QString &);
         Q_SIGNAL void aPropertyChanged();
     private:
@@ -21,6 +19,10 @@ namespace sstd {
     private:
         sstd_class(AProperty);
     };
+
+    inline QString AProperty::getAProperty() const {
+        return thisAProperty;
+    }
 
 }/*namespace sstd*/
 
