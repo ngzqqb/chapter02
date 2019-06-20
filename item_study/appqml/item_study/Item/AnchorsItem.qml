@@ -8,16 +8,19 @@ PrivateBasic{
         anchors.fill: parent;
 
         Rectangle{
-            id : idBlackRectangle
-            color: "black"
+            id : idGraykRectangle
+            gradient: Gradient {
+                GradientStop { position: 0.0; color: "lightgray" }
+                GradientStop { position: 1.0; color: "darkgray" }
+            }
             anchors.fill: parent;
         }
 
         Rectangle{
-            width: idBlackRectangle.width * 0.3
-            anchors.left: idBlackRectangle.left;
-            anchors.top: idBlackRectangle.top
-            anchors.bottom: idBlackRectangle.bottom
+            width: idGraykRectangle.width * 0.3
+            anchors.left: idGraykRectangle.left;
+            anchors.top: idGraykRectangle.top
+            anchors.bottom: idGraykRectangle.bottom
             anchors.margins: 6
             color: "yellow"
         }
@@ -25,14 +28,14 @@ PrivateBasic{
         Rectangle{
             width: 64
             height: 64
-            anchors.centerIn: idBlackRectangle
+            anchors.centerIn: idGraykRectangle
             color: "red"
         }
 
         Rectangle{
             id : idBlueRectangle
-            width: idBlackRectangle.width * 0.3
-            height: idBlackRectangle.height *0.5
+            width: idGraykRectangle.width * 0.3
+            height: idGraykRectangle.height *0.5
             color: "lightblue"
             state:"anchorsTop"
 
@@ -41,8 +44,8 @@ PrivateBasic{
                     name: "anchorsTop"
                     AnchorChanges{
                         target: idBlueRectangle
-                        anchors.top: idBlackRectangle.top
-                        anchors.right: idBlackRectangle.right
+                        anchors.top: idGraykRectangle.top
+                        anchors.right: idGraykRectangle.right
                     }
                     PropertyChanges {
                         target: idBlueRectangle
@@ -53,8 +56,8 @@ PrivateBasic{
                     name: "anchorsBottom"
                     AnchorChanges{
                         target: idBlueRectangle
-                        anchors.bottom: idBlackRectangle.bottom
-                        anchors.right: idBlackRectangle.right
+                        anchors.bottom: idGraykRectangle.bottom
+                        anchors.right: idGraykRectangle.right
                     }
                     PropertyChanges {
                         target: idBlueRectangle
