@@ -32,6 +32,7 @@ CONFIG(debug,debug|release){
 QMLSOURCES += $$PWD/appqml/item_study/main.qml
 QMLSOURCES += $$PWD/appqml/item_study/Item/PrivateBasic.qml
 QMLSOURCES += $$PWD/appqml/item_study/Item/AnchorsItem.qml
+QMLSOURCES += $$PWD/appqml/item_study/Item/TransformItem.qml
 
 lupdate_only{
     SOURCES += $$QMLSOURCES
