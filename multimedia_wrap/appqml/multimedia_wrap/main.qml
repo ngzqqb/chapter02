@@ -35,4 +35,3 @@ ApplicationWindow {
 //sudo apt-get install gstreamer1.0-plugins-good gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly gstreamer1.0-libav
 //https://zhuanlan.zhihu.com/p/67795412
 //QMediaPlayer依赖本地解码器，WIN上下载k-lite或者LAV Filters安装即可。
-
