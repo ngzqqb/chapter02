@@ -33,6 +33,8 @@ QMLSOURCES += $$PWD/appqml/item_study/main.qml
 QMLSOURCES += $$PWD/appqml/item_study/Item/PrivateBasic.qml
 QMLSOURCES += $$PWD/appqml/item_study/Item/AnchorsItem.qml
 QMLSOURCES += $$PWD/appqml/item_study/Item/TransformItem.qml
+QMLSOURCES += $$PWD/appqml/item_study/Item/ItemLayer.qml
+QMLSOURCES += $$PWD/appqml/item_study/Item/RandomText.js
 
 lupdate_only{
     SOURCES += $$QMLSOURCES
