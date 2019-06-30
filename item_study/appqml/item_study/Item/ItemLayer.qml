@@ -42,11 +42,3 @@ void main() {
 
 /*endl_input_of_latex_for_clanguage_lick*/
 //Importing JavaScript Resources in QML
-
-
-
-
-
-
-
-
